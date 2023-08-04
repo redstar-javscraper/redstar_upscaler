@@ -26,7 +26,7 @@
 파이썬으로 개발되었으므로 다중 플랫폼에서 실행은 가능하나, 윈도우 환경에서만 테스트 되었으므로 이슈 발생 시 issue 탭에 등록해 주시면 검토해 보겠습니다.
 
 아래는 간단한 사용 데모화면입니다.
-[![Video Label](https://youtu.be/Aipen-xxyW4)]
+[![Video Label](https://i9.ytimg.com/vi_webp/Aipen-xxyW4/mq2.webp?sqp=CNjOsaYG-oaymwEmCMACELQB8quKqQMa8AEB-AGECIAC0AWKAgwIABABGBMgVSh_MA8=&rs=AOn4CLDbHLtrdwKTA577dr7qyutx8Ei8yA)](https://youtu.be/Aipen-xxyW4)
 
 ## 👀 준비사항
 
