@@ -14,18 +14,20 @@
 
 
 ## Table of Contents
-
-  * [<g-emoji class="g-emoji" alias="thinking" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png">🤔</g-emoji> 준비사항](#-준비사항)
+  
+  * [<g-emoji class="g-emoji" alias="thinking" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png">🤔</g-emoji> 준비사항](#-준비사항)  
   * [<g-emoji class="g-emoji" alias="eyes" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f440.png">👀</g-emoji> 환경구성](#-환경구성)
   * [<g-emoji class="g-emoji" alias="books" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png">📚</g-emoji> 사용법](#-사용법)
+* [<g-emoji class="g-emoji" alias="smile" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png">🤔</g-emoji> History](#-History)
 * [<g-emoji class="g-emoji" alias="pray" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f64f.png">🙏</g-emoji> Thank You](#-thank-you)
+
 
 ## 🤔 redstar upscaler?
 
 [redstar upscaler](https://github.com/redstar-javscraper/redstar_upscaler)는 동영상 업스케일링을 한번에 수행하기 위해 파이썬으로 개발된 도구입니다. 
 파이썬으로 개발되었으므로 다중 플랫폼에서 실행은 가능하나, 윈도우 환경에서만 테스트 되었으므로 이슈 발생 시 issue 탭에 등록해 주시면 검토해 보겠습니다.
 
-아래는 간단한 사용 데모화면입니다.
+아래는 간단한 사용 데모화면입니다.<br>
 ![demo](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/7c41e5b3-d05e-441a-98e1-1758ab7463b4)
 
 ## 👀 준비사항
@@ -51,7 +53,7 @@
 
 ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에서 설정이 완료되면 아래와 같은 창을 볼 수 있습니다.
 
-![mainwindow](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/d7afe97f-ad7f-41d7-81d4-4cd94ddd8f00)
+![미디어_v0 1 2](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/3d97f6fa-1525-467c-b1a1-1bfb023d6ae4)
 
 작업 순서는 다음과 같습니다.
 
@@ -87,6 +89,17 @@ ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에�
 
 ※ 작업이 완료된 파일은 접두사 [REDSTAR]를 붙인 파일명으로 저장됩니다
 
+# 🤔 History
+
+v0.1.1
+### 최초 작성, ffmepg, realesrgan, flowframes를 연동한 동영상 업스케일링 프로그램 작성   
+<br>
+
+v0.1.2
+### UI 구성 변경
+### 내부 로직 변경
+### realesrgan 모델 사용방식 변경 
+###    -> realesrgan 설치폴더 내 models 폴더에 신규 모델 파일(*.param)을 복사하면 사용 가능합니다
 
 # 🙏 Thank You
 
