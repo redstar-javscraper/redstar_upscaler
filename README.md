@@ -98,8 +98,13 @@ v0.1.1
 v0.1.2
 ### UI 구성 변경
 ### 내부 로직 변경
+### realesrgan 모델 중 아래 두개 모델 선택 시 실행되지 않는 문제 해결
 ### realesrgan 모델 사용방식 변경 
 ###    -> realesrgan 설치폴더 내 models 폴더에 신규 모델 파일(*.param)을 복사하면 사용 가능합니다
+### 작업 대상 영상의 마지막 파일의 width, height 정보 및 예상 업스케일 크기 표시
+### config.ini 파일 마이그레이션 코드 작성
+### ffmpeg 분해 이미지 aac -> flac로 변경
+### 기타 버그 수정
 
 # 🙏 Thank You
 
