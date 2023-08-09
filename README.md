@@ -28,7 +28,7 @@
 파이썬으로 개발되었으므로 다중 플랫폼에서 실행은 가능하나, 윈도우 환경에서만 테스트 되었으므로 이슈 발생 시 issue 탭에 등록해 주시면 검토해 보겠습니다.
 
 아래는 간단한 사용 데모화면입니다.<br>
-![demo](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/7c41e5b3-d05e-441a-98e1-1758ab7463b4)
+![미디어_v0 1 2](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/3d97f6fa-1525-467c-b1a1-1bfb023d6ae4)
 
 ## 👀 준비사항
 
@@ -52,8 +52,8 @@
 ## 📚 사용법
 
 ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에서 설정이 완료되면 아래와 같은 창을 볼 수 있습니다.
+![2023-08-09 16 57 23](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/2f05a46b-7cb7-4c19-b15e-58db73ebf651)
 
-![미디어_v0 1 2](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/3d97f6fa-1525-467c-b1a1-1bfb023d6ae4)
 
 작업 순서는 다음과 같습니다.
 
