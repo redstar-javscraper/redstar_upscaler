@@ -91,6 +91,9 @@ ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에�
 
 # 🤔 History
 
+v 0.1.4 HotFix
+ > 1. build시 fps정보를 잘못 적용하는 문제 긴급 수정
+
 v 0.1.4
  > 1. config.ini 파일 읽기 방식 변경
  > 2. 동영상 정보 가저오는 방식을 파이썬 AV에서 ffmpeg로 변경
