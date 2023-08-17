@@ -28,7 +28,7 @@
 파이썬으로 개발되었으므로 다중 플랫폼에서 실행은 가능하나, 윈도우 환경에서만 테스트 되었으므로 이슈 발생 시 issue 탭에 등록해 주시면 검토해 보겠습니다.
 
 아래는 간단한 사용 데모화면입니다.<br>
-![미디어_v0 1 2](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/3d97f6fa-1525-467c-b1a1-1bfb023d6ae4)
+![미디어_v0 1 4](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/3c78f00e-a74c-4c5a-b3d3-4f39659be6c9)
 
 ## 👀 준비사항
 
@@ -52,7 +52,7 @@
 ## 📚 사용법
 
 ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에서 설정이 완료되면 아래와 같은 창을 볼 수 있습니다.
-![2023-08-09 16 57 23](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/2f05a46b-7cb7-4c19-b15e-58db73ebf651)
+![2023-08-17 14 35 16](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/ef9395ff-db53-42a2-8ceb-78b362c523da)
 
 
 작업 순서는 다음과 같습니다.
@@ -91,10 +91,20 @@ ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에�
 
 # 🤔 History
 
-V0.1.3
+v 0.1.4
+ > 1. config.ini 파일 읽기 방식 변경
+ > 2. 동영상 정보 가저오는 방식을 파이썬 AV에서 ffmpeg로 변경
+ > 3. 작업 종료 시 윈도우 종료기능 추가
+ > 4. 작업 리스트에서 마우스 오버 시 전체 파일명을 툴팁으로 표시
+ > 5. 작업 리스트에 각 파일별 해상도(전) / 해상도(후) / FPS(전) / FPS(후) 표기
+ > 6. FPS 입력 상자 제거(위 각 파일별 표기로 인한 제거)
+ > 7. 출력 FPS 예상 크기 제거(위 각 파일별 표기로 인한 제거)
+ > 8. 진행 상태를 전체파일/작업별 두개의 Progressbar로 표기
+
+v 0.1.3
  > 1. 파일 불러올 때 일부 FPS 정보가 틀린 파일 FPS 계산 오류 수정
 
-v0.1.2
+v 0.1.2
  > 1. UI 구성 변경   
  > 2. 내부 로직 변경  
  > 3. realesrgan 모델 중 아래 두개 모델 선택 시 실행되지 않는 문제 해결  
@@ -105,7 +115,7 @@ v0.1.2
  > 7. ffmpeg 분해 이미지 aac -> flac로 변경  
  > 8. 기타 버그 수정
 
-v0.1.1
+v 0.1.1
  > 1. 최초 작성, ffmepg, realesrgan, flowframes를 연동한 동영상 업스케일링 프로그램 작성   
 
 # 🙏 Thank You
