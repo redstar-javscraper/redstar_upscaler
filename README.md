@@ -28,7 +28,7 @@
 파이썬으로 개발되었으므로 다중 플랫폼에서 실행은 가능하나, 윈도우 환경에서만 테스트 되었으므로 이슈 발생 시 issue 탭에 등록해 주시면 검토해 보겠습니다.
 
 아래는 간단한 사용 데모화면입니다.<br>
-![미디어_v0 1 4](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/3c78f00e-a74c-4c5a-b3d3-4f39659be6c9)
+![미디어1](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/452c91f1-b011-4231-b280-cb510cf35544)
 
 ## 👀 준비사항
 
@@ -52,7 +52,7 @@
 ## 📚 사용법
 
 ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에서 설정이 완료되면 아래와 같은 창을 볼 수 있습니다.
-![2023-08-17 14 35 16](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/ef9395ff-db53-42a2-8ceb-78b362c523da)
+![2023-08-18 14 35 42](https://github.com/redstar-javscraper/redstar_upscaler/assets/72743692/cb10e305-294c-44bb-b433-6a6756d170fe)
 
 
 작업 순서는 다음과 같습니다.
@@ -91,8 +91,13 @@ ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에�
 
 # 🤔 History
 
-v 0.1.4 HotFix
- > 1. build시 fps정보를 잘못 적용하는 문제 긴급 수정
+v 0.1.5
+ > 1. flowframes 보간 ai 선택 시 ai 모델이 자동 변경되지 않는 문제 해결
+ > 2. flowframes 보간 시 선택된 옵션대로 보간되지 않는 문제 해결
+ > 3. 일부 동영상의 FPS 계산 시 잘못된 FPS로 계산되는 경우를 방지하기 위해 "FPS 계산방식" 콤보박스 추가
+        -> r_frame_rate / avg_frame_rate 중 선택 가능하며, 기본은 r_frame_rate로 계산합니다
+ > 4. 동영상 파일을 선택했을 때 동영상 정보 가져오는 진행 현황을 표기 
+ > 5. 파일 연 후 다시 파일 선택 시 마지막 선택한 폴더를 기본으로 열도록 변경
 
 v 0.1.4
  > 1. config.ini 파일 읽기 방식 변경
