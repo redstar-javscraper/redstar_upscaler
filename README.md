@@ -35,7 +35,7 @@
 프로그램을 실행하기 전에 아래의 사항을 확인한 후 준비하십시오<br>
 
 1. ffmpeg 다운로드 및 설치 [Download](https://www.ffmpeg.org/download.html)
-2. realesrgan 다운로드 및 설치 [Download](https://www.ffmpeg.org/download.html) 본문의 Portable Windows 버전 추천
+2. realesrgan 다운로드 및 설치 [Download](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesrgan-ncnn-vulkan-20220424-windows.zip) 본문의 Portable Windows 버전 추천
 3. flowframe 다운로드 및 설치 [Download](https://github.com/n00mkrad/flowframes)
 
 ## 👀 환경구성
@@ -90,6 +90,11 @@ ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에�
 ※ 작업이 완료된 파일은 접두사 [REDSTAR]를 붙인 파일명으로 저장됩니다
 
 # 🤔 History
+
+v 0.1.7
+ > 1. 프로그램 크기 변경 가능
+ > 2. 음성이 없는 파일 작업 시 오류 발생하는 문제 해결
+ > 3. 전체 UI 구성 변경(크기 변경에 맞게 재 구성함)
 
 v 0.1.6
  > 1. 화면 해상도에 따라 글자 크기가 다른 문제 해결
