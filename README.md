@@ -12,6 +12,8 @@
 
 <br></br>
 
+다운로드 : [Release]([https://www.ffmpeg.org/download.html](https://github.com/redstar-javscraper/redstar_upscaler/releases))
+
 
 ## Table of Contents
   
