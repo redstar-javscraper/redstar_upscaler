@@ -92,6 +92,11 @@ ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에�
 ※ 작업이 완료된 파일은 접두사 [REDSTAR]를 붙인 파일명으로 저장됩니다
 
 # 🤔 History
+v 0.1.8
+ > 버전 체크 시 신규 버전 확인 오류 수정
+ > flowframes가 기본 경로에 설치되었을 경우(ex. C:\Users\Administrator\AppData\Local\Flowframes\) 해당 경로를 기본으로 설정 후 시작
+ > 여러개 파일 선택 추가 시 오류로 인해 강제 종료되는 문제 
+ > 다중 파일을 추가한 후 작업 시작 시 오류 발생하는 부분 수정
 
 v 0.1.7
  > 1. 프로그램 크기 변경 가능
