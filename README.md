@@ -76,6 +76,10 @@ ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에�
 ※ 작업이 완료된 파일은 접두사 [REDSTAR]를 붙인 파일명으로 저장됩니다
 # 🤔 History
 
+v 0.1.91
+ > Flowframes 관련 일부 combobox refresh 기능 추가
+ > 배포파일 일부 조정
+
 v 0.1.9
  > Flowframes 모델 변경 적용
  > Flowframes 1.36.0 신규 모델, 1.40.0 모델 구현
