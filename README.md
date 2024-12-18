@@ -22,7 +22,6 @@
   * [<g-emoji class="g-emoji" alias="books" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png">📚</g-emoji> 사용법](#-사용법)
   * [<g-emoji class="g-emoji" alias="smile" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png">🤔</g-emoji> History](#-History)
   * [<g-emoji class="g-emoji" alias="pray" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f64f.png">🙏</g-emoji> Thank You](#-thank-you)
-  * [<g-emoji class="g-emoji" alias="books" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png">
 
 ## 🤔 redstar upscaler?
 [redstar upscaler](https://github.com/redstar-javscraper/redstar_upscaler)는 동영상 업스케일링을 한번에 수행하기 위해 파이썬으로 개발된 도구입니다. 
