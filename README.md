@@ -78,26 +78,25 @@ ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에�
 # 🤔 History
 
 v 0.1.92
-> Flowframes 경로 변경 시 AI모델 콤보박스에 중복 입력되어 보간 실패하는 문제 해결
-
-> 보간 작업 시 콤보박스의 선택 상태 확인코드 추가
+ > 1. Flowframes 경로 변경 시 AI모델 콤보박스에 중복 입력되어 보간 실패하는 문제 해결
+ > 2. 보간 작업 시 콤보박스의 선택 상태 확인코드 추가
 
 v 0.1.91
- > Flowframes 관련 일부 combobox refresh 기능 추가
- > 배포파일 일부 조정
+ > 1. Flowframes 관련 일부 combobox refresh 기능 추가
+ > 2. 배포파일 일부 조정
 
 v 0.1.9
- > Flowframes 모델 변경 적용
- > Flowframes 1.36.0 신규 모델, 1.40.0 모델 구현
- > 이제 더 이상 Flowframes 명령줄 실패가 발생하지 않음
- > 드래그/드랍으로 파일 추가 가능
- > Flowframes 설정값 적용되지 않는 문제 해결
+ > 1. Flowframes 모델 변경 적용
+ > 2. Flowframes 1.36.0 신규 모델, 1.40.0 모델 구현
+ > 3. 이제 더 이상 Flowframes 명령줄 실패가 발생하지 않음
+ > 4. 드래그/드랍으로 파일 추가 가능
+ > 5. Flowframes 설정값 적용되지 않는 문제 해결
 
 v 0.1.8
- > 버전 체크 시 신규 버전 확인 오류 수정
- > flowframes가 기본 경로에 설치되었을 경우(ex. C:\Users\Administrator\AppData\Local\Flowframes\) 해당 경로를 기본으로 설정 후 시작
- > 여러개 파일 선택 추가 시 오류로 인해 강제 종료되는 문제 
- > 다중 파일을 추가한 후 작업 시작 시 오류 발생하는 부분 수정
+ > 1. 버전 체크 시 신규 버전 확인 오류 수정
+ > 2. flowframes가 기본 경로에 설치되었을 경우(ex. C:\Users\Administrator\AppData\Local\Flowframes\) 해당 경로를 기본으로 설정 후 시작
+ > 3. 여러개 파일 선택 추가 시 오류로 인해 강제 종료되는 문제 
+ > 4. 다중 파일을 추가한 후 작업 시작 시 오류 발생하는 부분 수정
 
 v 0.1.7
  > 1. 프로그램 크기 변경 가능
