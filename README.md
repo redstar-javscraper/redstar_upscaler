@@ -79,6 +79,7 @@ ffmpeg, realesrgan, flowframes 환경구성이 완료되고 redstar upscaler에�
 
 v 0.1.92
 > Flowframes 경로 변경 시 AI모델 콤보박스에 중복 입력되어 보간 실패하는 문제 해결
+
 > 보간 작업 시 콤보박스의 선택 상태 확인코드 추가
 
 v 0.1.91
